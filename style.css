@@ -27,3 +27,11 @@ p {
 img#bio {
     padding: 0 0 0 0;
 }
+
+img.contact {
+    padding: 0 0 0 0;
+}
+
+.center {
+    text-align: center;
+}
