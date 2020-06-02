@@ -29,9 +29,16 @@ img#bio {
 }
 
 img.contact {
-    padding: 0 0 0 0;
+    margin-top: 20px;
 }
+
+.portfolio {
+    margin-bottom: 25px;}
 
 .center {
     text-align: center;
+}
+
+footer {
+    margin-top: 20px;
 }
