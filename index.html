@@ -26,17 +26,17 @@
         </div>
       </nav>
     <!-- About Me Section. Left column photo wasn't placed inside of a column element and instead classed as a "col-md-4" instead. Placing it inside of a "col" div caused overflow -->
-    <div class="container-sm">
-        <div class="row" id="aboutme">
+    <main class="container-sm">
+        <section class="row" id="aboutme">
             <img class="col-md-4 rounded" src="assets/headshot.jpg" alt="Hey that's my face!" id="bio">
 
-            <div class="col-md-8">
+            <section class="col-md-8">
                 <h2>Yo! I'm Nick</h2>
                 <p>Born and raised Philadelphia with a passion for music, creating, and expanding my brain as much as possible before it calcifies. I've spend the better part of the last decade or so as a career club DJ, music producer, and event promoter so chances are if you've ever been a part of Philly's nightlife, we've probably met.<br>
                 Currently I'm studying at Penn LPS's Full-Stack Web Development Boot Camp. Currently I have HTML, CSS, and a little bit of Javascript in my toolkit but that list is sure to grow week by week so check back often.</p>
                 <!-- Sub row and columns listing skills. Adding more than four to a column causes stretch distortion to bio photo on smaller viewports. -->
-                <div class="row">
-                  <div class="col">
+                <article class="row">
+                  <article class="col">
                     <h3>Skills</h3>
                     <ul>
                       <li>Adobe Creative Suite</li>
@@ -44,8 +44,8 @@
                       <li>Logic</li>
                       <li>Microsoft Office</li>
                     </ul>
-                  </div>
-                  <div class="col">
+                  </article>
+                  <article class="col">
                     <h3>Almost Skills</h3>
                     <ul>
                       <li>HTML</li>
@@ -53,17 +53,16 @@
                       <li>Videography</li>
                       <li>Cooking</li>
                     </ul>
-                  </div>
-                </div>
-            </div>
-        </div>
-    </div>
+                  </article>
+                </article>
+            </section>
+        </section>
+    </main>
+    <br>
     
-    <footer>
-      <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark footmargin">
+    <footer class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark footmargin">
         © ND 2020
-      </nav>
     </footer>
-    
+
   </body>
 </html>
