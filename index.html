@@ -22,34 +22,40 @@
             <a class="nav-item nav-link active" href="#">About</a>
             <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
             <a class="nav-item nav-link" href="contact.html">Contact</a>
+            <a class="nav-item nav-link" href="#">Resume</a>
           </div>
         </div>
       </nav>
     <!-- About Me Section. Left column photo wasn't placed inside of a column element and instead classed as a "col-md-4" instead. Placing it inside of a "col" div caused overflow -->
     <main class="container-sm">
         <section class="row" id="aboutme">
-            <img class="col-md-4 rounded" src="assets/headshot.jpg" alt="Hey that's my face!" id="bio">
+            <section class="col-md-4 col-sm-12 ">
+              <img class="rounded" src="assets/headshot.jpg" alt="Hey that's my face!" id="bio">
+            </section>
 
-            <section class="col-md-8">
-                <h2>Yo! I'm Nick</h2>
-                <p>Born and raised Philadelphia with a passion for music, creating, and expanding my brain as much as possible before it calcifies. I've spend the better part of the last decade or so as a career club DJ, music producer, and event promoter so chances are if you've ever been a part of Philly's nightlife, we've probably met.<br>
-                Currently I'm studying at Penn LPS's Full-Stack Web Development Boot Camp. Currently I have HTML, CSS, and a little bit of Javascript in my toolkit but that list is sure to grow week by week so check back often.</p>
+            <section class="col-md-8 col-sm-12">
+                <h2 id="intro">Yo! I'm Nick</h2>
+                <p>Born and raised Philadelphia with a passion for music, creating, and expanding my brain as much as possible before it calcifies. I've spend the better part of the last decade or so as a career club DJ, music producer, and event promoter so chances are if you've ever been a part of Philly's nightlife, we've probably met.</p>
+                <p>Currently I'm studying at Penn LPS's Full-Stack Web Development Boot Camp. Currently I have most frontend material like HTML5, CSS, Javascript, and jQuery in my toolkit but that list is starting to include backend items like Node.JS and eventually MongoDB, MySQL, and React.</p>
                 <!-- Sub row and columns listing skills. Adding more than four to a column causes stretch distortion to bio photo on smaller viewports. -->
                 <article class="row">
                   <article class="col">
                     <h3>Skills</h3>
                     <ul>
+                      <li>HTML5</li>
+                      <li>CSS</li>
+                      <li>JavaScript</li>
+                      <li>jQuery</li>
+                      <li>BootStrap Framework</li>
                       <li>Adobe Creative Suite</li>
                       <li>Ableton</li>
-                      <li>Logic</li>
-                      <li>Microsoft Office</li>
                     </ul>
                   </article>
                   <article class="col">
                     <h3>Almost Skills</h3>
                     <ul>
-                      <li>HTML</li>
-                      <li>CSS</li>
+                      <li>Node.JS</li>
+                      <li>Materialize</li>
                       <li>Videography</li>
                       <li>Cooking</li>
                     </ul>
