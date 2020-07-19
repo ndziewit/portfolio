@@ -7,7 +7,6 @@
 
     <!-- Bootstrap and Google Fonts CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap" rel="stylesheet">
 
     <title>Nick Dziewit</title>
@@ -22,24 +21,22 @@
             <a class="nav-item nav-link active" href="#">About</a>
             <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
             <a class="nav-item nav-link" href="contact.html">Contact</a>
-            <a class="nav-item nav-link" href="#">Resume</a>
-          </div>
+            <a class="nav-item nav-link" href="assets/Nicholas Dziewit Resume July 2020.pdf" target="blank">Resume</a>
         </div>
       </nav>
     <!-- About Me Section. Left column photo wasn't placed inside of a column element and instead classed as a "col-md-4" instead. Placing it inside of a "col" div caused overflow -->
-    <main class="container-sm">
-        <section class="row" id="aboutme">
-            <section class="col-md-4 col-sm-12 ">
+    <main class="container-fluid">
+        <section class="row justify-content-md-center" id="aboutme">
+            <div class="col-md-4">
               <img class="rounded" src="assets/headshot.jpg" alt="Hey that's my face!" id="bio">
-            </section>
+            </div>
 
-            <section class="col-md-8 col-sm-12">
+            <div class="col-md-8">
                 <h2 id="intro">Yo! I'm Nick</h2>
                 <p>Born and raised Philadelphia with a passion for music, creating, and expanding my brain as much as possible before it calcifies. I've spend the better part of the last decade or so as a career club DJ, music producer, and event promoter so chances are if you've ever been a part of Philly's nightlife, we've probably met.</p>
                 <p>Currently I'm studying at Penn LPS's Full-Stack Web Development Boot Camp. Currently I have most frontend material like HTML5, CSS, Javascript, and jQuery in my toolkit but that list is starting to include backend items like Node.JS and eventually MongoDB, MySQL, and React.</p>
-                <!-- Sub row and columns listing skills. Adding more than four to a column causes stretch distortion to bio photo on smaller viewports. -->
                 <article class="row">
-                  <article class="col">
+                  <article class="col-6">
                     <h3>Skills</h3>
                     <ul>
                       <li>HTML5</li>
@@ -51,7 +48,7 @@
                       <li>Ableton</li>
                     </ul>
                   </article>
-                  <article class="col">
+                  <article class="col-6">
                     <h3>Almost Skills</h3>
                     <ul>
                       <li>Node.JS</li>
@@ -61,8 +58,10 @@
                     </ul>
                   </article>
                 </article>
-            </section>
+            </div>
         </section>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>    <link rel="stylesheet" type="text/css" href="style.css">
+
     </main>
     <br>
     

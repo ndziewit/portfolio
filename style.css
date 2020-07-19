@@ -1,14 +1,12 @@
-. {font-family: 'Oswald', sans-serif;
-}
-
 body {
+    font-family: 'Oswald', sans-serif;
     color: #ffffff;
     background-color: black;
     font-size: large;
 }
 
 #aboutme {
-    background-image: linear-gradient(#202020, rgb(0, 0, 0));
+    background-image: linear-gradient(#353a3f, rgb(0, 0, 0));
 }
 
 h2#intro {
@@ -29,7 +27,7 @@ p {
     width: 100%;
 }
 section {
-    margin: 20px;
+    padding: 20px 0px;
 }
 
 .portfolio {
