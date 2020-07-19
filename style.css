@@ -30,6 +30,11 @@ p {
     padding: 20px;
     width: 100%;
 }
+
+#navlinks {
+    margin-left: -8px;
+}
+
 section {
     padding: 20px 0px;
 }
